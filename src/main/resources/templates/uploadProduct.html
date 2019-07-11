@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>上传产品说明书</title>
+</head>
+<body>
+<p>上传说明书</P>
+<FORM METHOD=POST ACTION="/product/upload" enctype="multipart/form-data">
+<TABLE>
+<TR>
+	<TD>产品:</TD>
+	<TD><INPUT TYPE="text" NAME="productName"></TD>
+</TR>
+<TR>
+	<TD>文件</TD>
+	<TD><INPUT TYPE="file" NAME="file"></TD>
+</TR>
+<TR colspan="2">
+	<TD><INPUT TYPE="submit" value="上传"></TD>
+</TR>
+</TABLE>
+</FORM>
+</body>
+</html>
